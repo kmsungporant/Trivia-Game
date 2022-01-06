@@ -1,0 +1,36 @@
+.split-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.split-half {
+    margin-top: 3rem;
+    width: calc(50% - 15px);
+    height: 80vh;
+    flex-grow: 1;
+}
+
+.past-container {
+    margin-left: 50px;
+    width: 50%;
+    overflow: scroll;
+    height: 90%;
+    background-color: lightblue;
+}
+
+.past-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    outline: 2px solid gray;
+    background-color: lightcyan;
+}
+
+@media screen and (max-width: 768px) {
+    .split-half {
+        width: calc(100% - 30px);
+        height: 20vh;
+    }
+}

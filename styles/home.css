@@ -1,0 +1,40 @@
+.header {
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: normal;
+}
+
+.block-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reset-button {
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    width: 100%;
+    padding: 0 25%;
+    text-align: center;
+}
+
+.block {
+    height: 50px;
+    width: calc(50% - 15px);
+    background-color: green;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.block:hover {
+    color: white;
+    text-decoration: underline;
+}
